@@ -1,0 +1,16 @@
+# large outputs and data
+*.npz
+*.nc
+*.pt
+*.pth
+data/
+
+# Python / OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# credentials
+.env
+.cdsapirc

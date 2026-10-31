@@ -1,0 +1,6 @@
+model                                       24h     ±    48h    72h    NLL  cov72
+OU prior (no leak)                        14.40   nan  30.62  47.60   7.98  0.950
+LSTM + OU (standard, history to t0)       10.36  0.04  24.83  40.75   7.01  0.884
+LSTM + OU + true pos. t0+1..t0+1h          9.58  0.00  23.60  39.44   6.73  0.885
+LSTM + OU + true pos. t0+1..t0+3h          8.77  0.01  22.49  38.16   6.30  0.892
+LSTM + OU + true pos. t0+1..t0+6h          8.23  0.44  21.78  37.56   5.48  0.904

@@ -1,0 +1,56 @@
+[
+  {
+    "basin": "NWP",
+    "setting": "In-basin",
+    "hybrid_coverage": 0.9022,
+    "hybrid_area_km2": 915.3452,
+    "ou_coverage": 0.9017,
+    "ou_area_km2": 2291.4651,
+    "area_reduction_percent": 60.05415050833635
+  },
+  {
+    "basin": "NWP",
+    "setting": "West to East",
+    "hybrid_coverage": 0.9041,
+    "hybrid_area_km2": 926.3571,
+    "ou_coverage": 0.9029,
+    "ou_area_km2": 1980.7229,
+    "area_reduction_percent": 53.231363155340915
+  },
+  {
+    "basin": "NWP",
+    "setting": "East to West",
+    "hybrid_coverage": 0.8961,
+    "hybrid_area_km2": 1242.1264,
+    "ou_coverage": 0.9016,
+    "ou_area_km2": 2878.5,
+    "area_reduction_percent": 56.848136182039255
+  },
+  {
+    "basin": "NA",
+    "setting": "In-basin",
+    "hybrid_coverage": 0.9008,
+    "hybrid_area_km2": 458.6636,
+    "ou_coverage": 0.9003,
+    "ou_area_km2": 1179.8974,
+    "area_reduction_percent": 61.12682340006852
+  },
+  {
+    "basin": "NA",
+    "setting": "West to East",
+    "hybrid_coverage": 0.8999,
+    "hybrid_area_km2": 390.0025,
+    "ou_coverage": 0.8995,
+    "ou_area_km2": 999.6679,
+    "area_reduction_percent": 60.98679371419249
+  },
+  {
+    "basin": "NA",
+    "setting": "East to West",
+    "hybrid_coverage": 0.9005,
+    "hybrid_area_km2": 713.9768,
+    "ou_coverage": 0.8965,
+    "ou_area_km2": 1340.9044,
+    "area_reduction_percent": 46.754086271922134
+  }
+]

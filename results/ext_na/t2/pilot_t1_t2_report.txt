@@ -1,0 +1,97 @@
+[T1]
+backward   0.9637 0.9643 0.0914
+centered   0.9794 0.9804 0.0677
+forward    0.9640 0.9648 0.0909
+
+[T2]
+
+TEST 2022, all drifters — mean separation (km)  (n=192,841)
+model                                       6h     12h     24h     48h     72h   med72   LW72
+persistence                               4.82    8.83   16.47   31.02   44.12   36.87  0.272
+CV product ve/vn (t0)                     2.51    6.47   13.05   30.09   48.62   40.40  0.311
+CV centered diff (uses t0+1h)             2.41    6.27   12.63   29.34   47.56   39.28  0.322
+CV centered 6h (uses t0+6h)               1.76    4.10    8.43   21.80   37.07   28.41  0.482
+CV backward 1h (past-only)                2.78    6.66   13.13   30.09   48.54   40.14  0.311
+CV backward 3h (past-only)                3.22    6.90   13.13   29.79   47.94   39.46  0.314
+damped CV back3h Td=48h                   3.12    6.43   11.37   23.57   35.45   29.30  0.421
+LS mean velocity 48h                      3.65    6.45   12.40   26.37   41.18   30.31  0.416
+mean + inertial osc.                      3.56    6.32   12.48   26.43   41.27   30.39  0.417
+mean + inertial osc. damped Td=192h       3.55    6.30   12.48   26.44   41.26   30.39  0.417
+
+TEST 2022, drogued  (n=40,651)
+model                                       6h     12h     24h     48h     72h   med72   LW72
+persistence                               4.40    7.97   15.00   28.01   39.43   29.88  0.299
+CV product ve/vn (t0)                     2.41    5.93   12.16   28.47   46.12   36.34  0.296
+CV centered diff (uses t0+1h)             2.31    5.71   11.73   27.67   44.98   35.21  0.309
+CV centered 6h (uses t0+6h)               1.64    3.47    7.51   20.03   34.36   23.37  0.500
+CV backward 1h (past-only)                2.67    6.06   12.25   28.41   45.96   36.05  0.296
+CV backward 3h (past-only)                3.06    6.18   12.27   28.06   45.32   35.06  0.302
+damped CV back3h Td=48h                   2.97    5.76   10.66   22.12   33.05   25.29  0.415
+LS mean velocity 48h                      3.40    5.94   11.75   25.04   38.92   24.48  0.431
+mean + inertial osc.                      3.26    5.73   11.80   25.05   39.02   24.53  0.432
+mean + inertial osc. damped Td=192h       3.26    5.72   11.79   25.06   39.01   24.52  0.433
+
+TEST 2022, undrogued  (n=141,845)
+model                                       6h     12h     24h     48h     72h   med72   LW72
+persistence                               4.94    9.09   16.90   31.89   45.47   39.16  0.263
+CV product ve/vn (t0)                     2.54    6.63   13.31   30.56   49.30   41.83  0.315
+CV centered diff (uses t0+1h)             2.44    6.43   12.90   29.83   48.26   40.77  0.326
+CV centered 6h (uses t0+6h)               1.80    4.30    8.72   22.36   37.88   30.31  0.475
+CV backward 1h (past-only)                2.82    6.84   13.39   30.58   49.24   41.63  0.315
+CV backward 3h (past-only)                3.26    7.12   13.38   30.29   48.64   41.00  0.317
+damped CV back3h Td=48h                   3.17    6.63   11.57   23.98   36.09   30.73  0.423
+LS mean velocity 48h                      3.73    6.61   12.62   26.77   41.79   32.49  0.408
+mean + inertial osc.                      3.65    6.51   12.71   26.85   41.87   32.58  0.408
+mean + inertial osc. damped Td=192h       3.64    6.50   12.71   26.85   41.87   32.57  0.408
+
+TEST 2022, lat 20-30N  (n=58,385)
+model                                       6h     12h     24h     48h     72h   med72   LW72
+persistence                               4.34    8.06   14.71   28.02   40.26   35.42  0.251
+CV product ve/vn (t0)                     2.07    5.73   11.70   26.07   41.79   35.71  0.326
+CV centered diff (uses t0+1h)             1.99    5.58   11.39   25.50   40.98   34.83  0.337
+CV centered 6h (uses t0+6h)               1.52    4.05    8.13   19.64   32.76   26.80  0.468
+CV backward 1h (past-only)                2.31    5.96   11.73   26.09   41.76   35.53  0.325
+CV backward 3h (past-only)                2.69    6.30   11.62   25.81   41.27   35.10  0.326
+damped CV back3h Td=48h                   2.61    5.88   10.04   20.57   31.13   26.92  0.428
+LS mean velocity 48h                      3.19    5.66   10.05   21.59   34.08   26.51  0.441
+mean + inertial osc.                      2.87    5.32   10.03   21.58   34.11   26.51  0.445
+mean + inertial osc. damped Td=192h       2.87    5.31   10.04   21.60   34.12   26.51  0.445
+
+TEST 2022, lat 30-38N  (n=64,856)
+model                                       6h     12h     24h     48h     72h   med72   LW72
+persistence                               5.02    9.26   17.21   32.59   46.53   39.93  0.260
+CV product ve/vn (t0)                     2.56    6.72   13.28   30.55   49.69   41.91  0.316
+CV centered diff (uses t0+1h)             2.46    6.51   12.84   29.77   48.59   40.78  0.328
+CV centered 6h (uses t0+6h)               1.83    4.41    8.63   22.31   38.24   30.13  0.480
+CV backward 1h (past-only)                2.84    6.93   13.32   30.55   49.61   41.69  0.316
+CV backward 3h (past-only)                3.30    7.24   13.30   30.34   49.11   41.05  0.319
+damped CV back3h Td=48h                   3.20    6.75   11.49   24.08   36.60   30.84  0.424
+LS mean velocity 48h                      3.73    6.62   12.67   27.14   42.60   32.87  0.410
+mean + inertial osc.                      3.78    6.69   12.78   27.30   42.72   33.02  0.409
+mean + inertial osc. damped Td=192h       3.77    6.67   12.78   27.29   42.70   32.99  0.409
+
+TEST 2022, lat 38-45N  (n=39,241)
+model                                       6h     12h     24h     48h     72h   med72   LW72
+persistence                               5.05    9.09   17.22   32.17   45.33   34.39  0.305
+CV product ve/vn (t0)                     2.87    6.98   13.95   33.18   53.62   42.71  0.291
+CV centered diff (uses t0+1h)             2.75    6.73   13.44   32.26   52.28   41.26  0.305
+CV centered 6h (uses t0+6h)               1.94    3.97    8.33   22.95   39.31   27.04  0.507
+CV backward 1h (past-only)                3.17    7.12   14.08   33.17   53.42   42.22  0.292
+CV backward 3h (past-only)                3.63    7.23   14.14   32.76   52.52   41.08  0.299
+damped CV back3h Td=48h                   3.52    6.72   12.24   25.69   37.99   29.13  0.415
+LS mean velocity 48h                      3.94    6.87   13.86   29.29   45.40   29.56  0.419
+mean + inertial osc.                      3.90    6.65   14.00   29.34   45.45   29.62  0.420
+mean + inertial osc. damped Td=192h       3.89    6.65   13.97   29.34   45.47   29.64  0.420
+
+TRAIN 2020-2021 (sanity), all  (n=150,000)
+model                                       6h     12h     24h     48h     72h   med72   LW72
+persistence                               5.56   10.34   19.44   36.43   51.57   41.82  0.254
+CV product ve/vn (t0)                     2.63    6.88   14.31   33.88   55.27   43.86  0.320
+CV centered diff (uses t0+1h)             2.52    6.64   13.84   33.04   54.10   42.61  0.332
+CV centered 6h (uses t0+6h)               1.85    4.42    9.63   25.54   43.70   31.81  0.477
+CV backward 1h (past-only)                2.92    7.09   14.43   33.93   55.23   43.51  0.320
+CV backward 3h (past-only)                3.36    7.33   14.46   33.63   54.58   42.88  0.323
+damped CV back3h Td=48h                   3.26    6.86   12.68   27.09   41.12   32.61  0.424
+LS mean velocity 48h                      4.18    7.63   15.02   31.77   49.37   34.92  0.399
+mean + inertial osc.                      4.22    7.60   15.14   31.88   49.48   35.03  0.399
+mean + inertial osc. damped Td=192h       4.21    7.58   15.14   31.87   49.47   35.03  0.399

@@ -1,0 +1,9 @@
+name: drift_repro_py310
+channels:
+  - defaults
+dependencies:
+  - python=3.10.22
+  - pip
+# One environment for training and plotting.
+# Next install the CUDA 12.1 (or CPU) torch build, then env/requirements.txt.
+# See README.md for complete commands.
